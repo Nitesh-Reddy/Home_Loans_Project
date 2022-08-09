@@ -1,0 +1,48 @@
+h2 {
+    color:dimgray;
+    text-align: center;
+    font-family: cursive;
+  }
+  .tot{
+    background-image: linear-gradient(to left,#5A3D55,#FFA5B0,#BAC964,#EEC0C6);
+  }
+  
+  
+  body {
+    background-image: linear-gradient(to left,#F0ECE3,#97E5EF);
+    background-size: cover;
+    font-size: large;
+  }
+  
+  table {
+    width:600;
+    text-align: center;
+  }
+  
+  strong {
+    padding-left: 50px;
+  }
+  
+  li {
+    color:red;
+    text-align: center;
+    padding-left: 30px;
+  }
+  
+  span {
+    font-weight: bold;
+    color:red;
+    padding-left: 20px;
+  }
+  
+  button {
+    color:whitesmoke;
+  }
+  
+  button:hover {
+    background-color:crimson;
+  }
+  
+  h3 {
+    color: maroon;
+  }

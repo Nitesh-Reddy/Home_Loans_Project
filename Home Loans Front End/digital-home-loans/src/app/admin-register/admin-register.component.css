@@ -1,0 +1,7 @@
+.jumbotron{
+    background-image: url("https://img.freepik.com/free-photo/fading-blue-background_53876-88684.jpg?t=st=1655747513~exp=1655748113~hmac=e99b06ca8a5a6deb2e86db055e371b1121d5e6eda9649cc5edb53f39ee43141a&w=900");
+    background-size: cover;
+    height: 120vh;
+    font-weight: bold;
+    color: beige;
+}

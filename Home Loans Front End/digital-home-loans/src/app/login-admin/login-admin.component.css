@@ -1,0 +1,12 @@
+
+.tot{
+    background-image: linear-gradient(to left,#C3CFE2,#FCB69F,#C2E9FB,#F9EA8F,#FBC7D4,#FFFFF0,#FFEBCD);
+    height: 80vh;
+    background-size: cover;
+}
+.l1{
+    margin-left: 40%;
+}
+.b1{
+    margin-left: 10%;
+}

@@ -1,0 +1,66 @@
+*{
+    font-weight: bold;
+}
+.row {
+    color: black;
+}
+.total{
+    background-image: linear-gradient(to left,#58CFFB,#58CFFB,#E2D1C3,#C32BAC);
+    
+    background-size: cover;
+}
+
+h3 {
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image:url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?t=st=1655747513~exp=1655748113~hmac=75760d87e06d746807c27d53e8c7f7e5cc7093c7af56da5bcd33fbe9b84c2ebb&w=900") ;
+    background-size: cover;
+    
+}
+
+table {
+    width:600;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+select {
+    border-color: #800000;
+    border-width: 2px; 
+    border-radius: 5px;
+}
+
+input {
+    background-color: #FFFFFF;
+    border-color: #800000;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #a34caf;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 2px 8px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: crimson;
+  }
+
+  p {
+    color:red;
+    font-weight: bold;
+  }
+  span{
+      font-size: small;
+      font-style: italic;
+  }

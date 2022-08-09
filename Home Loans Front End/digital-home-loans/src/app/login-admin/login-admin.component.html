@@ -1,0 +1,28 @@
+<br>
+<div class="container col-lg-6 tot">
+    <h1 class="text-center" style="color: black;">Admin Login</h1><br>
+    <div class="card">
+      <div class="card-body">
+        <form class="form-group" ngNativeValidate>
+          <div class="alert alert-warning" *ngIf='invalidLogin'>{{errorMessage}}</div>
+          <div class="alert alert-success" *ngIf='loginSuccess'>{{successMessage}}</div>
+          <div class="form-group">
+            <label for="email">User Name :</label>
+            <input type="text" class="form-control" id="username" [(ngModel)]="aname" placeholder="Enter User Name"
+              name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" [(ngModel)]="password" id="password" placeholder="Enter password"
+              name="password" required>
+          </div>
+          <br>
+          <button (click)=checkLogin() style="background-color: blueviolet;" class="btn btn-success">Login</button>
+          
+          <label class="l1">Not Registered ?</label>
+          
+          <button (click)="adminRegister()" style="background-color: blueviolet;" class="b1 btn btn-success">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>

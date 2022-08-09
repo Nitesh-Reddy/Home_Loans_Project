@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/accountant-calculating-profit-with-financial-analysis-graphs_74855-4937.jpg?t=st=1655790988~exp=1655791588~hmac=50d0f4cdabcd809a345cfe4c0ef970d27ae722b8171d35d82a1f0d3869985d4a&w=900");
+  height: auto;
+  background-size: cover;
+}
+.p2{
+  margin-left: 4%;
+}
+.c3{
+  margin-left: 3%;
+}
+.c1{
+  margin-left: 3%;
+}
+
+h1 {
+  text-shadow: circle;
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  color:white;
+  font-weight: bold;
+  background-color: blue;
+}
+
+button:hover {
+  background-color:white;
+  color: black;
+  font-weight: bold;
+}
+
+h3 {
+  color: maroon;
+}
+.n2{
+  margin-left: 4%;
+
+}
+.n3{
+  margin-left: 11%;
+}
+.n4{
+  margin-left: 26%;
+}
+.total{
+  background-image: linear-gradient(to left,#C3CFE2,#FCB69F,#C2E9FB,#F9EA8F,#FBC7D4,#FFFFF0,#FFEBCD);
+}

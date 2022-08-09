@@ -1,0 +1,30 @@
+*{
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+h2 {
+    
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
+.b1{
+    background-color: blue;
+    color: white;
+}
+table {
+    text-align: center;
+    background-image: linear-gradient(to left,#C3CFE2,#FCB69F,#C2E9FB,#F9EA8F,#FBC7D4,#FFFFF0,#FFEBCD);
+    height: auto;
+    width:600px;
+}
+.b1:hover{
+    background-color: black;
+    transition: 0.4s;
+}

@@ -1,0 +1,32 @@
+<div>
+    <div class="panel-heading">
+        <h2 style="color: #6713D2; text-align: center;"><b>Users Data</b></h2>
+      </div>
+
+      <div>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Date of Birth</th>
+                
+              </tr>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let u of users ">
+                  <td>{{ u.id }}</td>
+                  <td>{{ u.firstName }}</td>
+                  <td>{{ u.lastName}}</td>
+                  <td>{{ u.dob}}</td>
+                  <td><button (click)="deleteuser(u.id)" class="btn btn-danger">Reject</button>
+                    <td><button [disabled] = "u.accept" (click)="updateuser(u.id)" class="btn btn-success">Accept</button>
+                  </td>
+                </tr>
+              </tbody>
+
+        </table>
+      </div>
+</div>

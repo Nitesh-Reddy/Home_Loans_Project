@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.tot{
+    background-image: url("https://img.freepik.com/free-photo/delicate-yellow-abstract-watercolor-background_3590-82.jpg?w=996");
+    background-size: cover;
+    height: 60vh;
+}
+.lab{
+    margin-left: 220px;
+
+}
+.total{
+    background-image: linear-gradient(to left,#C3CFE2,#FCB69F,#C2E9FB,#F9EA8F,#FBC7D4,#FFFFF0,#FFEBCD);
+    height: 70vh;
+}
+.labs{
+    margin-left: 30px;
+}
